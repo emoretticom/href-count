@@ -38,7 +38,7 @@ In the href attribute, insert the call to the href() method, passing the "link" 
 ```php
 <?php
 	
-	use emoretti\utils\hrefcount\hrefCount;
+	use emoretti\hrefcount\hrefCount;
 
 	$HC =  new hrefCount(); 
 
@@ -75,7 +75,7 @@ In any linked page you want count the click add
 ```php
 <?php
 	
-	use emoretti\utils\hrefcount\hrefCountEndpoint;
+	use emoretti\hrefcount\hrefCountEndpoint;
 
 	$HC_EP =  new hrefCountEndpoint();
 
