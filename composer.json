@@ -1,0 +1,27 @@
+{
+    "name": "emoretti/href-count",
+    "description": "HrefCount is a PHP library that register in database how many times a link is clicked by user",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Ettore Moretti",
+            "email": "info@ettoremoretti.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.0.0"
+        }
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+          "emoretti\\hrefcount\\": "src/"
+        }
+    },
+    "require": {
+        "jakeasmith/http_build_url": "1"
+    }
+}
